@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuiZ Screen</title>
+    <link rel="stylesheet" href="/quiz-play.css">
+</head>
+<body>
+    <div class="header">
+        <a href="/index.html"><h1>QuiZGame </h1></a>
+        <div class="buton">
+            <a href="/about.html"><button class="header-button">About</button></a>
+            <a href="/how it works.html"><button class="header-button">How It Works</button></a></div>
+        </div>
+        <div class="container">
+            <div id="game" class="justify-center flex-column">
+              <div id="hud">
+                <div id="hud-item">
+                  <p class="hud-prefix">Question</p>
+                  <h1 class="hud-main-text" id="questionCounter"></h1>
+                </div>
+                <div id="hud-item">
+                    <p class="hud-prefix">Score</p>
+                    <h1 class="hud-main-text" id="score">0</h1>
+                </div>
+               </div>
+            </div>
+
+            <h2 id="question">1. Enter Question Here</h2>
+            <div class="choice-container">
+                <p class="option">A</p>
+                <p class="answer" data-number="1">Answer 1</p>
+            </div>
+            <div class="choice-container">
+                <p class="option">B</p>
+                <p class="answer" data-number="2">Answer 2</p>
+            </div>
+            <div class="choice-container">
+                <p class="option">C</p>
+                <p class="answer" data-number="3">Answer 3</p>
+            </div> 
+            <div class="choice-container">
+                <p class="option">D</p>
+                <p class="answer" data-number="4">Answer 4</p>
+            </div>
+        </div>
+      <script src="chemistry-easy.js"></script>
+</body>
+</html>

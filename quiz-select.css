@@ -1,0 +1,128 @@
+body {
+    padding:0;
+    margin:0;
+    font-family:sans-serif;
+    background: linear-gradient(90deg, rgb(111, 194, 226), rgb(106, 96, 225), rgb(188, 95, 222));
+
+}
+.header {
+    width:100%;
+    height:70px;
+    background: linear-gradient(90deg, rgb(111, 194, 226), rgb(106, 96, 225), rgb(188, 95, 222));
+    padding-bottom:10px;
+    color:white;
+    margin-bottom:50px;
+    padding-top:20px;
+}
+
+h1 {
+    display:inline;
+    margin-left:100px;
+    font-family:sans-serif;
+    font-weight: 800;
+    color:white;
+} 
+
+.buton {
+    margin-left:900px;
+    display:inline;
+}
+
+.header-button {
+    
+    height:55px;
+    margin-right: -5px;
+    width:120px;
+    border:none;
+    color:white;
+    margin-top:10px;
+    background: transparent;
+    border-radius:10px;
+    font-weight:800;
+}
+
+.header-button:hover {
+    background-color: rgb(255, 255, 255);
+    color:black;
+    cursor:pointer;
+    transition: background-color 250ms;
+}
+
+.subject {
+    width:400px;
+    height:250px;
+    border: 1;
+    text-align: center;
+    margin-left: 20px;
+    display: inline;
+    position: relative;
+    text-align: left;
+    color: white;
+    border-radius: 20px;
+    margin-bottom:20px;
+}
+
+.subject-image {
+    width: 400px;
+    height: 250px;
+    border-radius:20px;
+}
+
+.content {
+    width: 400px;
+    height: 255px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-weight:700;
+    background-color:rgba(223, 222, 222, 0);
+    border-radius: 20px;
+    
+}
+
+.content p {
+    margin-left:20px;
+    margin-top:150px;
+    font-size:25px;
+    opacity: 0%;
+}
+
+.difficulty{
+    opacity: 0;
+    margin-left: 15px;
+    background: transparent;
+    color:white;
+    width:100px;
+    height:30px;
+    border:none;
+    border-radius:10px;
+    font-weight:800;
+}
+
+.subject:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.586);
+}
+
+.content:hover {
+    background-color:rgba(223, 222, 222, 0.488);
+    transition: background-color 250ms;
+    
+}
+.content:hover p, .content:hover .difficulty{
+    opacity: 100%;
+}
+.difficulty:hover {
+    background-color:white;
+    color:black;
+    cursor:pointer;
+    transition: background-color 250ms;
+}
+.container {
+    margin-left:auto;
+    margin-right:auto;
+    width:60%;
+    height: 600px;
+}
+a {
+    text-decoration: none;
+}
