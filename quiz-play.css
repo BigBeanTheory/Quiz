@@ -102,6 +102,7 @@ h2 {
 .answer {
     font-weight:800;
     padding-left:25px;
+    padding-right: 40%;
 }
 .choice-container:hover {
     cursor:pointer;
