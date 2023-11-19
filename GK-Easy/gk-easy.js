@@ -19,7 +19,7 @@ let questions = [
         answer: 2,
     },
     {
-        question: "Durin World War II, When did Germany attack France?",
+        question: "During World War II, When did Germany attack France?",
         choice1: "1940",
         choice2: "1941",
         choice3: "1942",
