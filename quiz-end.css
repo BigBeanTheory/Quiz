@@ -25,8 +25,8 @@ body {
     padding:0;
     margin:0;
     font-family:sans-serif;
-    background: linear-gradient(90deg, rgb(111, 194, 226), rgb(106, 96, 225), rgb(188, 95, 222));
-
+    background: url('moving2.gif') no-repeat;
+    background-size: cover;
 }
 
 .container {
