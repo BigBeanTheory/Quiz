@@ -27,6 +27,7 @@ Run the application:
 Simply open index.html in your browser.
 
 🛠 Technologies Used
+
 HTML – Structure of the quiz interface.
 
 CSS – Styling for an appealing UI.
