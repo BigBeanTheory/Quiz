@@ -1,6 +1,6 @@
 📚 QuizGame– Interactive Quiz App
 QuizMaster is a web-based quiz application built with HTML, CSS, and JavaScript. It offers engaging and interactive quizzes in Chemistry, Mathematics, Physics, and General Knowledge, making learning fun and effective!
-
+________________________________________________________________________________________________
 🚀 Features
 
 ✅ Multiple Subjects – Choose from Chemistry, Mathematics, Physics, or General Knowledge.
@@ -13,7 +13,7 @@ QuizMaster is a web-based quiz application built with HTML, CSS, and JavaScript.
 
 ✅ Responsive Design – Works seamlessly on desktop and mobile.
 
-
+________________________________________________________________________________________________
 🔧 Installation & Usage
 Clone the repository:
 
@@ -31,6 +31,7 @@ Run the application:
 
 Simply open index.html in your browser.
 
+________________________________________________________________________________________________
 🛠 Technologies Used
 
 HTML – Structure of the quiz interface.
@@ -39,6 +40,7 @@ CSS – Styling for an appealing UI.
 
 JavaScript – Quiz logic, score tracking, and interactivity.
 
+________________________________________________________________________________________________
 🤝 Contributing
 Feel free to fork this repository, submit issues, or suggest improvements!
 
